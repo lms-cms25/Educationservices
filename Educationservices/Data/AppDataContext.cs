@@ -11,5 +11,6 @@ namespace Educationservices.Data
         public DbSet<SchoolClass> SchoolClasses { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
         public DbSet<Submission> Submissions { get; set; }
+        public DbSet<Degree> Degrees { get; set; }
     }
 }

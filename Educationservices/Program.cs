@@ -16,6 +16,7 @@ builder.Services.AddCors(options =>
         p.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod()));
 
 builder.Services.AddScoped<Educationservices.Services.AssignmentService>();
+builder.Services.AddScoped<Educationservices.Services.DegreeService>();
 
 var app = builder.Build();
 
